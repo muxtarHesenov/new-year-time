@@ -17,10 +17,6 @@ function getNewYearTime() {
     document.getElementsByClassName('table')[0].innerHTML = `${d} gün, ${h} saat   ${m} dəqiqə   ${s} saniyə`;
 }
 
-if (true) {
-    document.getElementById('blokText').innerHTML = 'Artıq yeni ildir, gedin yatın';
-}
-
 setInterval(function () {
     getNewYearTime()
 }, 1000);
