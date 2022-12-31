@@ -1,4 +1,4 @@
-const newYearTime = new Date("2023-01-01 00:00").getTime();
+const newYearTime = new Date("2024-01-01 00:00").getTime();
 
 function getNewYearTime() {
     const date = new Date().getTime();
